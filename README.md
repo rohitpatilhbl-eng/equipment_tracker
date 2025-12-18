@@ -109,29 +109,22 @@ http://localhost:3000
 Make sure both the frontend and backend are running at the same time.
 ```
 
-Assumptions
+## Assumptions & Design Decisions
 
-No authentication or user management is required
+- Authentication and user management were intentionally excluded, as they were not part of the assignment scope.
+- Equipment data is stored in a local JSON file to keep the setup lightweight and focused on core CRUD functionality.
+- Basic client-side validation is implemented to ensure required fields are provided.
+- The user interface prioritizes clarity and usability over advanced styling.
+- The application is designed for local development and demonstration purposes.
 
-Data is stored in a JSON file for simplicity
+---
 
-Only basic form validation is implemented
+## Possible Improvements
 
-The UI is kept simple and functional
-
-The application is intended for local development only
-
-Improvements with More Time
-
-If more time were available, the following improvements could be made:
-
-Replace JSON file storage with a database (PostgreSQL or MongoDB)
-
-Add search, filter, and sorting functionality to the table
-
-Improve UI styling and mobile responsiveness
-
-Add better error handling and validations
-
-Write unit tests for frontend and backend
+- Given additional time, the following enhancements could be implemented:
+- Migrate data storage from a JSON file to a database such as PostgreSQL or MongoDB.
+- Add search, filter, and sorting capabilities to improve usability for larger datasets.
+- Enhance UI styling and ensure full mobile responsiveness.
+- Implement more robust error handling and validation.
+- Add unit tests for both frontend and backend components.
 
